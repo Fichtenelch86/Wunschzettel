@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "modules": [
+    {
+      "type": "app",
+      "name": "wunschzettel",
+      "path": ".",
+      "routes": [
+        {
+          "path": "/"
+        }
+      ],
+      "port": 3000,
+      "serve": "server",
+      "runtime": "node",
+      "build": {
+        "context": ".",
+        "dockerfile": "Dockerfile"
+      },
+      "deploy": {
+        "startCommand": "node server.js"
+      }
+    }
+  ]
+}
