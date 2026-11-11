@@ -1,0 +1,15 @@
+{
+  "name": "wunschzettel",
+  "version": "1.0.0",
+  "description": "Gemeinsame Wunschlisten: Gruppen, Links, Bilder, reservieren und als gekauft markieren.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
